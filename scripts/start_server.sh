@@ -1,1 +1,1 @@
-java -jar /home/ec2-user/cloud_skills_spring_boot_exam-0.0.1-SNAPSHOT.jar
+nohup java -jar /home/ec2-user/cloud_skills_spring_boot_exam-0.0.1-SNAPSHOT.jar &
