@@ -12,7 +12,6 @@ import com.skills.cloud.dto.HealthChecker;
 @SpringBootApplication
 public class CloudSkillsSpringBootExamApplication {
 	
-	
 	@ResponseBody
 	@RequestMapping("/health")
 	public HealthChecker index() {
