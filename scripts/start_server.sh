@@ -1,3 +1,6 @@
 #!/bin/bash
+BUILD_PATH=$(ls /home/ec2-user/*.jar)
+JAR_NAME=$(basename $BUILD_PATH)
+DEPLOY_PATH=/home/ec2-user/
 
-nohup java -jar /home/ec2-user/cloud_skills_spring_boot_exam-0.0.1-SNAPSHOT.jar > /dev/null 2> /dev/null < /dev/null &
+nohup java -jar $DEPLOY_PATH$JAR_NAME > /dev/null 2> /dev/null < /dev/null &
