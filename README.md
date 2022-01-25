@@ -7,7 +7,7 @@ cloud-skills-spring-boot-example with Java/Spring Boot(Gradle)
 #### Java Version : 8
 
 
-#### HealthCheck URL : /health
+#### HealthCheck Path : /health
 
 
 #### Port : 8081
