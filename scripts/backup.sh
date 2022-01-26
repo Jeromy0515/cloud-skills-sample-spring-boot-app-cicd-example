@@ -7,4 +7,4 @@ mkdir /${TIME_STAMP}
 
 mv /home/ec2-user/${JAR_NAME} /${TIME_STAMP}/
 
-aws s3 cp /${TIME_STAMP}/ s3://pmj-backup-bucket/ --recursive
+aws s3 cp /${TIME_STAMP}/ s3://pmj-backup-bucket/ --recursive --exclude "*/*"
